@@ -1,0 +1,30 @@
+body {
+  background-color: #1d1f21;
+  color: #e39100;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  width: 100%;
+  max-width: 700px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #C279E1;
+}
+
+p {
+  font-size: 24px;
+}
+code{
+  color: #23D300; 
+}
+ul li {
+  font-size: 20px;
+  color: #007AD3;
+  line-height: 40px;
+}

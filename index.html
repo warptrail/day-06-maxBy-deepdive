@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Class Function Drills</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Max by Some Function</h1>
+
+    <div>
+      <img src="max-by-some-function.png" alt="" style="width: 100%">
+      <p>
+        Focusing on the maxBy function and understanding the abstractions
+        of higher order functions.
+      </p>
+    </div>
+
+
+    <div>
+      <h3>The Users: An array of objects.</h3>
+      <img src="users.png" alt="">
+    </div>
+
+    <!-- step 1 -->
+    <div>
+      <h3>Step 01: Get the maxBy Function to return something.</h3>
+      <img src="first-maxby-error.png" alt="">
+    </div>
+
+    <!-- step 2 -->
+    <div>
+      <h3>Step 02: What went wrong?</h3>
+      <p>The <code>userNameLength</code> function returns a number</p>
+      <p> That number originates from the length of any user in the user array.</p>
+    </div>
+
+    <!-- step 3 -->
+    <div>
+      <h3>Step 03: Let's try using a forEach method</h3>
+      <p>For each user in this users array I wish to run a function.</p>
+      <ul>
+        <li>
+          This function will return a single value from a single user, or the
+          user themselves.
+        </li>
+        <li>
+          That single value will be the maximum quantity of whatever numerical
+          property in this user.
+        </li>
+      </ul>
+      <p>Am I abstracting this correctly? </p>
+      <img src="return-undefined-foreach.png" alt="">
+    </div>
+
+    <!-- step 4 -->
+    <div>
+      <h3>Step 04: Let's try the reduce</h3>
+      <p>
+        The hint makes me think it should be structured like the <code>maxById</code> 
+        function in the previous drill.
+      </p>
+      <img src="max-by-id-function.png" alt="">
+      <p>
+        So let's try passing in callback where that 
+        <code>accumulator</code> and <code>number</code> callback is.
+      </p>
+      <p>
+        That means... there should be some sort of <code>if else</code>
+        statement in there? <br>
+        I'm not sure. Here is what I will try...:
+      </p>
+      <img src="reduce-error.png" alt="">
+      <p>
+        Part of my problem is that I do not understand the workings
+        of the reduce method. <br>
+        Same error as the previous try. My functions keep returning
+        <code>undefined</code> 😕
+      </p>
+    </div>
+
+    <h3>Step 05: Seek help</h3>
+    <p>Help: What do???</p>
+    <img src="halp.gif" alt="" style="width:50%">
+
+    <script src="app.js"></script>
+  </body>
+</html>
